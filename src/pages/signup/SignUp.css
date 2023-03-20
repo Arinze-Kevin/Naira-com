@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+}
+
+.section2 {
+    background-color: rgb(16, 37, 60);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.password__visibility {
+    margin-top: -1.8rem;
+    margin-left: 19rem;
+    color: gray;
+}
+
+/* .section2 button {
+    margin-left: 35rem;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 40px;
+    background-color: rgb(17, 187, 60);
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+} */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* position: relative; */
+    align-items: center;
+} 
+
+
+.checkbox input {
+    margin-left: -19.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 13px;
+    margin-bottom: -0.5em;
+    /* margin-top: -2em; */
+    
+}
+
+.warning {
+    position: relative;
+    height: 2vh;
+    width: 10%;
+    background-color: gray;
+    margin-bottom: 0rem;
+    margin-top: 0.4rem;
+    border-radius: 4px;
+    border: 0;
+    margin-right: 2r;
+}
+
+.warning p {
+    position: absolute;
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: 0rem;
+    color: white;
+    font-size: 10px;
+}
+
+.password__warning {
+    position: relative;
+    height: 3vh;
+    width: 10%;
+    background-color: gray;
+    margin-bottom: 0rem;
+    margin-top: 0.4rem;
+    border-radius: 4px;
+    border: 0;
+    margin-right: 2r;
+}
+
+.password__warning p {
+    position: absolute;
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: -0.3rem;
+    color: white;
+    font-size: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    width: 100%;
+    margin: 0;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+input {
+    height: 25px;
+    outline-color: rgb(66, 186, 255);
+    /* outline: none; */
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    margin-top: 1rem;
+    background-color: rgb(17, 187, 60);
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 900px) {
+    .field {
+        margfin-top: -30rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .section2 {
+        display: none;
+    }
+    .field {
+        width: 100%;
+    }
+}

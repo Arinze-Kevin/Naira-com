@@ -1,0 +1,18 @@
+.checkbox__div {
+    /* position: relative; */
+    /* position: absolute; */
+    display: flex;
+    align-items: flex-start;
+}
+
+.label {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -2rem;
+}
+
+.forgot__password {
+    display: flex;
+    align-items: flex-end;
+    margin-top: -2rem;
+}
